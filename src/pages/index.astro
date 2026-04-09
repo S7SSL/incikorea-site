@@ -1,36 +1,47 @@
 ---
-import Base from '../layouts/Base.astro';
+// Simple holding page - no layout dependency
 ---
 
-<Base title="InciKorea — Premium K-Beauty Import Guide">
-  <div class="container py-16">
-    <h1 style="font-size: 2.5rem; margin-bottom: 1rem;">InciKorea</h1>
-    <p style="font-size: 1.2rem; color: #666; margin-bottom: 2rem;">Premium K-beauty import guide for the UK & European market</p>
-    
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
-      <div style="border: 1px solid #e0e0e0; padding: 1.5rem; border-radius: 0.5rem;">
-        <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">📋 Regulatory Guide</h2>
-        <p>Complete UK compliance framework for importing Korean skincare. SCPN, CPSR, PIF, labelling, and customs requirements.</p>
-        <a href="/regulatory-guide" style="display: inline-block; margin-top: 1rem;">Read Guide →</a>
-      </div>
-      
-      <div style="border: 1px solid #e0e0e0; padding: 1.5rem; border-radius: 0.5rem;">
-        <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">📊 Market Analysis</h2>
-        <p>CLUNA SWOT analysis, competitor landscape, and UK K-beauty market positioning. Strategic roadmap for market entry.</p>
-        <a href="/market-analysis" style="display: inline-block; margin-top: 1rem;">Read Analysis →</a>
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InciKorea - Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            color: white;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>InciKorea</h1>
+        <p>Something exciting is coming from Korea!</p>
     </div>
-
-    <div style="background: #f0f7ff; padding: 2rem; border-radius: 0.5rem;">
-      <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">What is InciKorea?</h2>
-      <p style="margin-bottom: 1rem;"><strong>INCI</strong> stands for <em>International Nomenclature of Cosmetic Ingredients</em> — the global standard for ingredient transparency in cosmetics.</p>
-      <p style="margin-bottom: 1rem;">InciKorea is building premium, ingredient-forward Korean skincare for the UK & European market. We believe in:</p>
-      <ul style="margin-left: 2rem; margin-bottom: 1rem;">
-        <li>Transparency in every product</li>
-        <li>Regulatory compliance as standard</li>
-        <li>Clinical validation over hype</li>
-      </ul>
-      <p><strong>Currently:</strong> Launching CLUNA foil mask line with ACC cooling technology. Coming soon to UK retailers.</p>
-    </div>
-  </div>
-</Base>
+</body>
+</html>
