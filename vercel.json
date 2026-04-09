@@ -1,4 +1,7 @@
 {
   "buildCommand": "npm run build",
-  "framework": "astro"
+  "framework": "astro",
+  "redirects": [
+    { "source": "/defaultsite", "destination": "/", "permanent": false }
+  ]
 }
